@@ -1,6 +1,7 @@
-// value of 3, return fizz
-//value of 5, return buzz
-// value of 3 & 5, return fizzbuzz
+value of 3, return fizz
+value of 5, return buzz
+value of 3 & 5, return fizzbuzz
+return arr of values from 1-n
 
 const fizzbuzz = (num) => {
   if (num % 15 === 0) {
@@ -13,3 +14,5 @@ const fizzbuzz = (num) => {
 }
 
 console.log(fizzbuzz(15));
+
+
